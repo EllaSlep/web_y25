@@ -193,53 +193,6 @@ nav {
     background-color: snow;
 }
 
-/*.Albums {
-    text-decoration: none;
-    color: snow;
-    text-align: center;
-    align-items: center;
-    margin: 0px auto;
-}
-
-.Album {
-    width: 30%;
-    height: 30%;
-    border-radius: 10px;
-    text-align: center;
-    align-items: center;
-    display: inline-block;
-
-    & .Text{
-        text-decoration: none;
-        color: snow;
-        font-family: GillSans, 'Comfortaa', 'Comic Sans MS', 'Arial', serif;
-        font-size: 14px;
-    }
-}
- */
-
-/*.Albums{
-    text-decoration: none;
-    color: snow;
-    text-align: center;
-    align-items: center;
-    display: table;
-    margin: 0px auto;
-
-    & figure {
-        display: table-cell;
-    }
-    & img{
-        border-radius: 10px;
-    }
-    & a{
-        text-decoration: none;
-        color: snow;
-        font-family: GillSans, 'Comfortaa', 'Comic Sans MS', 'Arial', serif;
-        font-size: 14px;
-    }
-}
-*/
 body{
     background-color: rgba(0, 0, 0, 0.9);
 }

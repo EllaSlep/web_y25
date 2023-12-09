@@ -84,25 +84,17 @@ div.Nav {
     }
 }
 
-#Concerts {
+.Concert {
     display:inline-block;
     border-radius: 10px;
     padding: 1%;
     margin: 1%;
     vertical-align: middle;
     background-color: rgba(255, 255, 255, 0.95);
+    width: 98%;
+    font-family: GillSans, Arial, serif;
 
-    & h1{
-        font-family: GillSans, Arial, serif;
-        font-weight: bold;
-        width: 100%;
-        color: deeppink;
-        text-align: left;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-    }
-
-    & a{
+    & h3{
         text-decoration: none;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
@@ -110,6 +102,42 @@ div.Nav {
         color: black;
         text-align: left;
     }
+    & a{
+        text-decoration: underline;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-family: GillSans, Arial, serif;
+        color: black;
+        text-align: left;
+    }
+}
+fieldset p{
+    color: black;
+    font-family: GillSans, Arial, serif;
+}
+button {
+    background: lightpink;
+    color: black;
+    font-size: 14px;
+    border-width: 0;
+    padding: 10px 15px;
+    margin: 20px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background: deeppink;
+    color: snow;
+}
+
+table {
+    background: lightpink;
+    color: black;
+    padding: 10px 15px;
+    margin: 20px 0;
+    border-radius: 20px;
+    font-family: GillSans, Arial, serif;
 }
 .modal {
     position: fixed; /* фиксированное положение */

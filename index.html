@@ -28,8 +28,11 @@
         <section>
             <p id="Concerts"></p>
             <h1>Концерты</h1>
+            <div class="Concert">
             <h3>Пока нет(</h3>
             <a href="#openModal">Оставьте данные, чтобы мы сообщили вам о них!</a>
+                <p><a href="generator.html">Добавим концертик</a></p>
+            </div>
         </section>
         <section>
             <p id="Who"></p>
@@ -131,8 +134,16 @@
                 <a href="#close" title="Close" class="close">×</a>
             </div>
             <div class="modal-body">
-                <form>
+                <form action="#" method="get">
+                    <fieldset>
+                        <p><label for="name">Имя</label></p>
+                        <p><input type="text" name="name" id="name" placeholder="Ваше имя"></p>
 
+                        <p><label for="email">Электронная почта</label></p>
+                        <p><input type="email" name="email" id="email" placeholder="Ваша эл. почта" required></p>
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Сбросить</button>
+                    </fieldset>
                 </form>
             </div>
         </div>

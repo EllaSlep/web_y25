@@ -15,6 +15,7 @@
             <p id="Main"></p>
             <div class="Nav">
                     <a href="#Main">Главная</a>
+                    <a href="#Concerts">Концерты</a>
                     <a href="#Who">Кто мы такие?</a>
                     <a href="#Albums">Альбомы</a>
                     <a href="#Contacts">Контакты</a>
@@ -22,6 +23,15 @@
             <div class="Logo">
                 <img style="vertical-align: middle" src="3.svg" width="50" height="50" alt="Лого">
                 <span style="vertical-align: middle">No Matter</span>
+            </div>
+        </section>
+        <section>
+            <p id="Concerts"></p>
+            <h1>Концерты</h1>
+            <div class="Concert">
+            <h3>Пока нет(</h3>
+            <a href="#openModal">Оставьте данные, чтобы мы сообщили вам о них!</a>
+                <p><a href="generator.html">Добавим концертик</a></p>
             </div>
         </section>
         <section>
@@ -110,11 +120,33 @@
             <h4>Контактная информация</h4>
         </section>
         <a href="tel:+79216344017"><img src="phone.png" width="20" height="20" alt="Телефон"></a>
-        <!--<a href="mailto:sl.ella@yandex.ru">sl.ella@yandex.ru</a>-->
         <a href="https://vk.com/nomattermusic"><img src="VK%20Logo%20White.svg" width="20" height="20" alt="Мы в ВК"></a>
         <a href="https://t.me/joinchat/g8B5ZuT_jU1iZGQy"><img src="tg.png" width="20" height="20" alt="Мы в Телеграмме"></a>
         <a href="https://www.youtube.com/channel/UClcHwZbCwXWLRM3ZaXavtKg"><img src="youtube.png" width="20" height="20" alt="Мы в YouTube"></a>
         <a href="https://www.instagram.com/no_omatter/"><img src="instagram.png" width="20" height="20" alt="Мы в Instagram"></a>
     </footer>
 </body>
+<div id="openModal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Контактные данные</h3>
+                <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+                <form action="#" method="get">
+                    <fieldset>
+                        <p><label for="name">Имя</label></p>
+                        <p><input type="text" name="name" id="name" placeholder="Ваше имя"></p>
+
+                        <p><label for="email">Электронная почта</label></p>
+                        <p><input type="email" name="email" id="email" placeholder="Ваша эл. почта" required></p>
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Сбросить</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 </html>
